@@ -25,5 +25,5 @@ class Solution:
 
         return "".join(result)        
 
-# Time Complexity: O(N)
+# Time Complexity: O(M+N) = O(N) because max is O(26+26)
 # Space Complexity: O(1) (excluding the output string, since the hashmap is bounded by a fixed alphabet size)
